@@ -34,20 +34,20 @@ objs, itens, demands = generate_dataset(n_itens, n_obj, l_types, L_types, d_type
 
 Inputs:
 
-* `n_itens`: the number of the itens per object
-* `n_obj`: the number of objects
-* `l_types`: the amount of types of sizes of the itens
-* `L_tpyes`: the amount of types of sizes of the objects
-* `d_types`: the amount of types of the itens demands
-* `l_min` and `l_max`: the minimum and maximum size of the itens
-* `L_min` and `L_min`: the minimum and maximum size of the objects
-* `d_min` and `d_max`: the minimum and maximum of the itens demands
+* `n_itens (int)`: the number of the itens per object
+* `n_obj (int)`: the number of objects
+* `l_types (int)`: the amount of types of sizes of the itens
+* `L_tpyes (int)`: the amount of types of sizes of the objects
+* `d_types (int)`: the amount of types of the itens demands
+* `l_min (float)` and `l_max (float)`: the minimum and maximum size of the itens
+* `L_min (float)` and `L_min (float)`: the minimum and maximum size of the objects
+* `d_min (float)` and `d_max (float)`: the minimum and maximum of the itens demands
 
 Outputs:
 
-* `objs`: a list with `n_objs` length that contains the objects sizes
-* `itens`: a list with the shape (`n_obs, n_itens`) that contains the itens sizes
-* `demands`: a list with the shape (`n_obs, n_itens`) that contains the itens demands
+* `objs (list)`: a list with `n_objs` length that contains the objects sizes
+* `itens (list)`: a list with the shape (`n_obs, n_itens`) that contains the itens sizes
+* `demands (list)`: a list with the shape (`n_obs, n_itens`) that contains the itens demands
 
 ### Saving the dataset
 
@@ -63,8 +63,9 @@ save_dataset(objs, itens, demands, DATASET_PATH)
 
 Inputs:
 
-* `objs, itens, demands`: the generated data from the `generate_dataset()` function
-* `DATASET_PATH`: the absolute path to save the `.npy` files## Citation
+* `objs (list), itens (list), demands (list)`: the generated data from the `generate_dataset()` function
+* `DATASET_PATH (str)`: the absolute path to save the `.npy` files
+
 ## Citation
 
 If you use this script in your work, please cite us
