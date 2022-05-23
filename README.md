@@ -64,4 +64,7 @@ save_dataset(objs, itens, demands, DATASET_PATH)
 Inputs:
 
 * `objs, itens, demands`: the generated data from the `generate_dataset()` function
-* `DATASET_PATH`: the absolute path to save the `.npy` files
+* `DATASET_PATH`: the absolute path to save the `.npy` files## Citation
+## Citation
+
+If you use this script in your work, please cite us
