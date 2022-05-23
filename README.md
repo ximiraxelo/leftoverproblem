@@ -18,6 +18,12 @@ You need to have installed the [NumPy package](https://numpy.org/doc/stable/inde
 
 ## Usage
 
+### Installation
+
+If you already have [Git](https://git-scm.com/), you can download this script with:
+
+```git clone https://github.com/ximiraxelo/leftoverproblem```
+
 ### Generating a dataset
 
 To generate a dataset call the function `generate_dataset()`
