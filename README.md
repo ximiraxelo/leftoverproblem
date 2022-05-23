@@ -1,6 +1,6 @@
 # Leftover Problem Dataset Generator
 
-This **dataset generator** from the **leftover problem** is based in the work of 
+This **dataset generator** from the **leftover problem** is based in the work: 
 
 > Classification of leftovers from the stock cutting process, G. M. Bressan *et al.*, 2022
 
@@ -8,13 +8,13 @@ See the full article in [LINK]
 
 This project is licensed under the [Apache-2.0 License](https://www.apache.org/licenses/LICENSE-2.0)
 
-## Dependency
+## Dependencies
 
 This project is build with the Python 3.10.2
 
 You need to have installed the [NumPy package](https://numpy.org/doc/stable/index.html). if you already have Python, you can install NumPy with:
 
-```conda install python``` or ```pip install python```
+```conda install numpy``` or ```pip install numpy```
 
 ## Usage
 
@@ -45,7 +45,7 @@ Outputs:
 
 ### Saving the dataset
 
-The generated dataset can be salved in `.npy` files. The
+The generated dataset can be saved in `.npy` files.
 
 See more about `.npy` files in the [NumPy documentation](https://numpy.org/doc/stable/reference/generated/numpy.lib.format.html#module-numpy.lib.format)
 
