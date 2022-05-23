@@ -10,7 +10,7 @@ This project is licensed under the [Apache-2.0 License](https://www.apache.org/l
 
 ## Dependencies
 
-This project is build with the Python 3.10.2
+This project is build with the [Python](https://www.python.org/) 3.10.2
 
 You need to have installed the [NumPy package](https://numpy.org/doc/stable/index.html). if you already have Python, you can install NumPy with:
 
