@@ -49,6 +49,16 @@ Outputs:
 * `itens (list)`: a list with the shape (`n_obs, n_itens`) that contains the itens sizes
 * `demands (list)`: a list with the shape (`n_obs, n_itens`) that contains the itens demands
 
+---
+You can use the parameters according to "The constrained compartmentalised knapsack problem, F. P. Marques and M. N. Arenales, 2007"
+
+In this case you only need to specify `n_itens, n_obj, l_types, L_types, d_types`. See the example:
+
+```
+objs, itens, demands = generate_dataset(n_itens=20, n_obj=10, l_types=5, L_types=3, d_types=2)
+```
+---
+
 ### Saving the dataset
 
 The generated dataset can be saved in `.npy` files.
