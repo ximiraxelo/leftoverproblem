@@ -50,7 +50,7 @@ Outputs:
 * `demands (list)`: a list with the shape (`n_obs, n_itens`) that contains the itens demands
 
 ---
-You can use the parameters according to "The constrained compartmentalised knapsack problem, F. P. Marques and M. N. Arenales, 2007"
+You can use the parameters according to ["The constrained compartmentalised knapsack problem, F. P. Marques and M. N. Arenales, 2007"](https://doi.org/10.1016/j.cor.2005.08.011)
 
 In this case you only need to specify `n_itens, n_obj, l_types, L_types, d_types`. See the example:
 
