@@ -1,6 +1,6 @@
 """
 Copyright 2022 Glaucia Maria Bressan, Esdras Battosti da Silva,
-Matheus Henrique Pimenta-Zanon, Elisângela Aparecida da Silva Lizzi
+Matheus Henrique Pimenta-Zanon and Elisângela Aparecida da Silva Lizzi
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
