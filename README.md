@@ -39,8 +39,8 @@ Inputs:
 * `l_types (int)`: the amount of types of sizes of the itens
 * `L_tpyes (int)`: the amount of types of sizes of the objects
 * `d_types (int)`: the amount of types of the itens demands
-* `l_min (float)` and `l_max (float)`: the minimum and maximum size of the itens
-* `L_min (float)` and `L_min (float)`: the minimum and maximum size of the objects
+* `l_min (int)` and `l_max (int)`: the minimum and maximum size of the itens
+* `L_min (int)` and `L_min (int)`: the minimum and maximum size of the objects
 * `d_min (int)` and `d_max (int)`: the minimum and maximum of the itens demands
 
 Outputs:
