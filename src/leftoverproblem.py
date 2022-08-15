@@ -64,10 +64,12 @@ def generate_dataset(
 def create_objs(obj_middle, obj_sigma, n_obj, L_min, L_max, L_types):
     n = 0
     objs = []
+    L_min = int(L_min)
+    L_max = int(L_max)
 
     for i in range(n_obj):
         while True:
-            L_ran = rnd.gauss(obj_middle[n], obj_sigma)
+            L_ran = round(rnd.gauss(obj_middle[n], obj_sigma))
 
             if L_min <= L_ran <= L_max:
                 n += 1
@@ -81,6 +83,8 @@ def create_objs(obj_middle, obj_sigma, n_obj, L_min, L_max, L_types):
 
 def create_itens(iten_middle, iten_sigma, n_itens, n_obj, l_min, l_max, l_types):
     itens = []
+    l_min = int(l_min)
+    l_max = int(l_max)
 
     for i in range(n_obj):
         n = 0
@@ -88,7 +92,7 @@ def create_itens(iten_middle, iten_sigma, n_itens, n_obj, l_min, l_max, l_types)
 
         for j in range(n_itens):
             while True:
-                l_ran = rnd.gauss(iten_middle[n], iten_sigma)
+                l_ran = round(rnd.gauss(iten_middle[n], iten_sigma))
 
                 if l_min <= l_ran <= l_max:
                     n += 1
@@ -105,6 +109,8 @@ def create_demands(
     iten_demand_middle, iten_demand_sigma, n_itens, n_obj, d_min, d_max, d_types
 ):
     demands = []
+    d_min = int(d_min)
+    d_max = int(d_max)
 
     for i in range(n_obj):
         n = 0
