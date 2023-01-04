@@ -2,9 +2,7 @@
 
 This **dataset generator** from the **leftover problem** is based in the work: 
 
-> Classification of leftovers from the stock cutting process, G. M. Bressan *et al.*, 2022
-
-See the full article in [LINK]
+> Bressan, G.M., da Silva, E.B., Pimenta-Zanon, M.H., da Silva Lizzi, E.A. (2022). Classification of Leftovers from the Stock Cutting Process. In: Pereira, A.I., Košir, A., Fernandes, F.P., Pacheco, M.F., Teixeira, J.P., Lopes, R.P. (eds) Optimization, Learning Algorithms and Applications. OL2A 2022. Communications in Computer and Information Science, vol 1754. Springer, Cham. https://doi.org/10.1007/978-3-031-23236-7_23
 
 This project is licensed under the [Apache-2.0 License](https://www.apache.org/licenses/LICENSE-2.0)
 
